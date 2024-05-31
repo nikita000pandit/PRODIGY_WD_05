@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link
+    rel="stylesheet"
+    href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+  />
+  <link
+    rel="stylesheet"
+    href="../node_modules/bootstrap/dist/css/bootstrap.css"
+  />
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link
+href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+rel="stylesheet"
+/>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="container-fluid">
+    <!-- <h2 class="heading">Weather App</h2> -->
+       <div class="outer">
+        <div class="searchCity">
+                <input type="text" class="inputBox" placeholder="Enter your location">
+        <button class="searchButton"><i class="ri-search-line" style="color:white;box-shadow:0 0 1rem #59B2F4;"></i></button>
+        </div>
+       <p  class="invalid">Invalid Location</p>
+        <div class="weather-details">
+    <div class="image">
+        <img class="weather" src="../public/assets/rain (1).png" alt="">
+        <h3 class="temp">32°C</h4>
+            <h6 class="feels-like">feels like 33°C</h6>
+            <h6 class="description">Mostly cloudy</h6>
+        <h4 class="city">Nepal</h6>
+     </div>
+ <div class="footer">
+    <div class="humidity">
+<div><img src="../public/assets/humidity.png" alt=""></div>
+<div class="text">
+   <span class="hum"> 45% </span><br>
+    humidity </div>
+    </div>
+    <div class="wind">
+        <img src="../public/assets/wind.png" alt="">
+        <div class="text">
+          <span class="win">  18 km/hr</span><br>
+            wind </div>
+    </div>
+ </div>
+        </div>
+       </div>
+
+       <script src="script.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
